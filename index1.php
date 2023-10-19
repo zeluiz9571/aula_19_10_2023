@@ -17,5 +17,5 @@ class Car
 
 $bmw = new Car;
 
-echo $bmw->color;
+echo $bmw->numberOfTires;
 ?>
