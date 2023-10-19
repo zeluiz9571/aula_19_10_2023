@@ -7,7 +7,7 @@ class Car
 
     public function _construct($color)
     {
-        $this->color = $val;
+        $this->color = $color;
     }
 
     public function getColor()
