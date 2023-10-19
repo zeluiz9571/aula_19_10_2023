@@ -9,6 +9,17 @@ class Car
     {
         $this->color = $color;
     }
+    Public function __destruct()
+    {
+        echo "<br>";
+        echo "Objeto está sendo destruído";
+        
+    }
+
+    public function setColor($val)
+    {
+        $this->color = $val;
+    }
 
     public function getColor()
     {
