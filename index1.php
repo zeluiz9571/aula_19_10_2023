@@ -2,9 +2,9 @@
 
 class Car
 {
-    public $color = 'red';
-    public $numberOfTires = 4;
-
+    private $color = 'red';
+    private $numberOfTires = 4;
+    public static $country = "Canada";
     public function _construct($color)
     {
         $this->color = $color;
@@ -36,4 +36,6 @@ $bmw->setColor("black"); //Isso irá sobrescrever a propriedade de cor para pret
 //echo $bmw->numberOfTires;
 echo "<br>";
 echo $bmw->getColor();
+echo "<br>";
+echo Car::$country;
 ?>
