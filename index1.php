@@ -17,6 +17,8 @@ class Car
 }
 
 $bmw = new Car;
-
+//$bmw->setColor("black");
 echo $bmw->numberOfTires;
+echo "<br>";
+echo $bmw->getColor();
 ?>
