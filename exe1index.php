@@ -71,7 +71,7 @@
                             Ano: ". $carro0->ano . "<br /> <hr>";
 
     //Imprimindo na tela do usuário os valores do objeto (carro0) acima:
-    echo "Carro ". $carro01->status . ": <br/><br/>";
+    echo "Carro ". $carro1->status . ": <br/><br/>";
 
     echo "Fabricante do carro: ". $carro1->fabricante . "<br>
                         Modelo: ". $carro1->modelo . "<br>
