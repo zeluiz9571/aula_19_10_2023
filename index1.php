@@ -29,9 +29,9 @@ class Car
 
 $bmw = new Car("white");
 
-//echo $bmw->color;
+//echo $bmw->color;//Apresentará erro porque a propiedade color é privada
 
-echo $bmw->getColor(); //Isso imprimirá "branco" à propriedade color//Apresentará erro porque a propiedade color é privada
+echo $bmw->getColor(); //Isso imprimirá "branco" à propriedade color
 
 $bmw->setColor("black"); //Isso irá sobrescrever a propriedade de cor para preto
 
