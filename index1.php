@@ -2,8 +2,8 @@
 
 class Car
 {
-    private $color = 'red';
-    private $numberOfTires = 4;
+    public $color = 'red';
+    public $numberOfTires = 4;
     public static $country = "Canada";
     public function _construct($color)
     {
@@ -29,11 +29,11 @@ class Car
 
 $bmw = new Car("white");
 
-//echo $bmw->color;//Apresentará erro porque a propiedade color é privada
+echo $bmw->color;
 
 echo $bmw->getColor(); //Isso imprimirá "branco" à propriedade color
 
-$bmw->setColor("black"); //Isso irá sobrescrever a propriedade de cor para preto
+//$bmw->setColor("black"); //Isso irá sobrescrever a propriedade de cor para preto
 
 //echo $bmw->numberOfTires;
 echo "<br>";
