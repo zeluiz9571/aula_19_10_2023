@@ -36,7 +36,7 @@
     $carro3 = new carro();
 
     //Atribuindo valores aos atributos
-    $carro3->ano        ="Maserati";
+    $carro3->ano        ="2015/2023";
     $carro3->modelo     ="Maserati Gran Turismo";
     $carro3->cor        ="Cinza";
     $carro3->fabricante ="2023";
@@ -46,7 +46,7 @@
     $carro4 = new carro();
 
     //Atribuindo valores aos atributos
-    $carro4->ano        ="2023";
+    $carro4->ano        ="2018/2023";
     $carro4->modelo     ="Ferrari Roma";
     $carro4->cor        ="Vermelho";
     $carro4->fabricante ="Ferrari";
