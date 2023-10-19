@@ -5,7 +5,7 @@ class Car
     public $color = 'red';
     public $numberOfTires = 4;
 
-    public function setColor($val)
+    public function _construct($color)
     {
         $this->color = $val;
     }
